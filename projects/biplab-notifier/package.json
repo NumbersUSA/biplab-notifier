@@ -6,7 +6,7 @@
   "license" : "SEE LICENSE IN LICENSE",
   "repository": {
     "type" : "git",
-    "url" : "https://github.com/NumbersUSA/biplab-notifier"
+    "url" : "git://github.com:NumbersUSA/biplab-notifier.git"
   },
   "peerDependencies": {
     "@angular/common": "^7.1.0",
