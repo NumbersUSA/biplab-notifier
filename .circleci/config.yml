@@ -41,7 +41,7 @@ jobs:
           command: npm run package
       - run:
           name: Publish package
-          command: npm publish dist/biplab-notifier/biplab-notifier-*.tgz
+          command: npm publish dist/biplab-notifier/NumbersUSA-biplab-notifier-*.tgz
 
 workflows:
   version: 2
