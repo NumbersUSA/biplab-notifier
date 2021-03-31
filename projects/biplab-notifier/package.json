@@ -1,12 +1,12 @@
 {
-  "name": "biplab-notifier",
-  "version": "3.0.0",
+  "name": "@NumbersUSA/biplab-notifier",
+  "version": "4.0.0",
   "description": "This is a notification npm package, it can be use as simple notification or modal dialog, a lot of customization option are available as well, checkout the github repo and examples",
   "keywords" :["Angular","Notifier", "Notification"],
   "license" : "SEE LICENSE IN LICENSE",
   "repository": {
     "type" : "git",
-    "url" : "https://github.com/biplabpokhrel/biplab-notifier"
+    "url" : "https://github.com/NumbersUSA/biplab-notifier"
   },
   "peerDependencies": {
     "@angular/common": "^7.1.0",
