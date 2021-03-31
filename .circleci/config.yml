@@ -54,6 +54,7 @@ workflows:
             branches:
               only: master
       - deploy:
+          context: github-package-upload
           requires:
             - test
           filters:
