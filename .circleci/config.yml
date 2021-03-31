@@ -35,7 +35,7 @@ jobs:
           at: ~/biplab-notifier
       - run:
           name: Authenticate with registry
-          command: echo "//registry.npmjs.org/:_authToken=$npm_TOKEN" > ~/biplab-notifier/.npmrc
+          command: echo "//registry.npmjs.org/:_authToken=$GITHUB_PACKAGE_PAT" > ~/biplab-notifier/.npmrc
       - run:
           name: generate package
           command: npm run package
