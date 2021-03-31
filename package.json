@@ -1,5 +1,6 @@
 {
   "name": "@NumbersUSA/biplab-notifier",
+  "repository":"git://github.com:NumbersUSA/biplab-notifier.git",
   "version": "0.0.0",
   "scripts": {
     "ng": "ng",
